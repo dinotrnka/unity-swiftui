@@ -7,13 +7,14 @@
 
 import SwiftUI
 
-struct UnityView: UIViewControllerRepresentable {
+struct UnityView: UIViewRepresentable {
 
-  func makeUIViewController(context: Context) -> UIViewController {
-    return UnityEmbeddedSwift.getUnityRootview()
-  }
+    func makeUIView(context: Context) -> UIView {
+      return UnityEmbeddedSwift.getUnityView()
+    }
 
-  func updateUIViewController(_ uiViewController: UIViewController, context: Context) {
+    func updateUIView(_ uiView: UIView, context: Context) {
 
-  }
+    }
 }
+

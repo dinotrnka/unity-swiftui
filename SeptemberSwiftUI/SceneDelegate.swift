@@ -23,8 +23,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     UnityEmbeddedSwift.showUnity()
 
     let contentView = NavigationView {
-//      ContentView()
-      UnityView()
+      ContentView()
+//      UnityView()
     }
 
     // Use a UIHostingController as window root view controller.

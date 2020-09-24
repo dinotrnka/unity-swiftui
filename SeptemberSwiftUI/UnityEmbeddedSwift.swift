@@ -23,6 +23,10 @@ class UnityEmbeddedSwift: UIResponder, UIApplicationDelegate, UnityFrameworkList
 
   private static var cachedMessages = [UnityMessage]()
 
+  static func getUnityView() -> UIView! {
+    return instance.ufw.appController()?.rootView
+  }
+
   static func getUnityRootview() -> UIViewController! {
     let unityViewController = instance.ufw.appController()?.rootViewController
 

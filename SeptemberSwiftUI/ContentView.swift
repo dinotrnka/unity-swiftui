@@ -23,6 +23,8 @@ struct ContentView: View {
         Text("Open Unity")
           .background(Color.pink)
       }
+        .navigationBarTitle("") // Remove navbar
+      .navigationBarHidden(true) // Remove navbar
     }
   }
 }
