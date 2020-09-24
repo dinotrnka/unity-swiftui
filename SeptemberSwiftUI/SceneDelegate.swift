@@ -20,11 +20,10 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     // Create the SwiftUI view that provides the window contents.
 
-    UnityEmbeddedSwift.showUnity()
+    UnityEmbeddedSwift().initUnityWindow()
 
     let contentView = NavigationView {
       ContentView()
-//      UnityView()
     }
 
     // Use a UIHostingController as window root view controller.

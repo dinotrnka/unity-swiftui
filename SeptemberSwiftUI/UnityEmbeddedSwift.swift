@@ -89,7 +89,7 @@ class UnityEmbeddedSwift: UIResponder, UIApplicationDelegate, UnityFrameworkList
     return ufw != nil && (ufw.appController() != nil)
   }
 
-  private func initUnityWindow() {
+  func initUnityWindow() {
     if unityIsInitialized() {
       showUnityWindow()
       return

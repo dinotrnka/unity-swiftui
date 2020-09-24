@@ -5,7 +5,7 @@
       location = "group:SeptemberSwiftUI.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:UnityProject/Unity-iPhone.xcodeproj">
+      location = "absolute:../UnityProjectRed/Unity-iPhone.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
