@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		225EF7F081AB689908ECF55F /* Pods_SeptemberSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB942EA47DAD4A85AA606517 /* Pods_SeptemberSwiftUITests.framework */; };
-		317DFC1C251B774D00F4EFF3 /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31F420C0251B752200B5A3BB /* UnityFramework.framework */; };
 		317DFC1D251B774D00F4EFF3 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 31F420C0251B752200B5A3BB /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		317DFC20251B7A6600F4EFF3 /* UnityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317DFC1F251B7A6600F4EFF3 /* UnityView.swift */; };
-		317DFC22251B94FB00F4EFF3 /* DionNavbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 317DFC21251B94FB00F4EFF3 /* DionNavbar.swift */; };
 		31F42091251B74A600B5A3BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F42090251B74A600B5A3BB /* AppDelegate.swift */; };
 		31F42093251B74A600B5A3BB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F42092251B74A600B5A3BB /* SceneDelegate.swift */; };
 		31F42095251B74A600B5A3BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F42094251B74A600B5A3BB /* ContentView.swift */; };
@@ -58,7 +56,6 @@
 
 /* Begin PBXFileReference section */
 		317DFC1F251B7A6600F4EFF3 /* UnityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnityView.swift; sourceTree = "<group>"; };
-		317DFC21251B94FB00F4EFF3 /* DionNavbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DionNavbar.swift; sourceTree = "<group>"; };
 		31F4208D251B74A600B5A3BB /* SeptemberSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeptemberSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31F42090251B74A600B5A3BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		31F42092251B74A600B5A3BB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -92,7 +89,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				646ACB8BE1B41D806B58BBF5 /* Pods_SeptemberSwiftUI.framework in Frameworks */,
-				317DFC1C251B774D00F4EFF3 /* UnityFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +145,6 @@
 				31F4209E251B74A800B5A3BB /* Info.plist */,
 				31F42098251B74A800B5A3BB /* Preview Content */,
 				317DFC1F251B7A6600F4EFF3 /* UnityView.swift */,
-				317DFC21251B94FB00F4EFF3 /* DionNavbar.swift */,
 			);
 			path = SeptemberSwiftUI;
 			sourceTree = "<group>";
@@ -408,7 +403,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				317DFC20251B7A6600F4EFF3 /* UnityView.swift in Sources */,
-				317DFC22251B94FB00F4EFF3 /* DionNavbar.swift in Sources */,
 				31F42091251B74A600B5A3BB /* AppDelegate.swift in Sources */,
 				31F42093251B74A600B5A3BB /* SceneDelegate.swift in Sources */,
 				31F42095251B74A600B5A3BB /* ContentView.swift in Sources */,

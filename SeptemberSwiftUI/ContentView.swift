@@ -21,7 +21,6 @@ struct ContentView: View {
         linkActive = true
       }) {
         Text("Open Unity")
-          .background(Color.pink)
       }
         .navigationBarTitle("") // Remove navbar
       .navigationBarHidden(true) // Remove navbar
