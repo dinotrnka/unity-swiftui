@@ -11,19 +11,10 @@ struct ContentView: View {
   @State var linkActive = false
 
   var body: some View {
-    VStack {
-      NavigationLink(
-        destination: UnityView(),
-        isActive: $linkActive
-      ) { }
-      Button(action: {
-        UnityEmbeddedSwift.showUnity()
-        linkActive = true
-      }) {
-        Text("Open Unity")
-      }
-        .navigationBarTitle("") // Remove navbar
-      .navigationBarHidden(true) // Remove navbar
+    Button(action: {
+      UnityEmbeddedSwift.showUnity()
+    }) {
+      Text("Open Unity My Friend")
     }
   }
 }
